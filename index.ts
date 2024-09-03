@@ -9,10 +9,10 @@ const app: Express= express();
 const port: string | number = process.env.PORT || 8000;
 
 // define the first Route of APP
-app.get('/', (req:Request, res:Response) => {
+/* app.get('/', (req:Request, res:Response) => {
     // send hello word
     res.send('Welcome to api RestFul: APP Express + nodemon + jest + TS + Swagger + Mongoose');
-});
+}); */
 
 app.get('/hello', (req:Request, res:Response) => {
     // send hello word
